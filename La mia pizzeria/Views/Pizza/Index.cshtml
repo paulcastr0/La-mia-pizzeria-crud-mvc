@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = "MyLayout";
+}
+
+@model List<Pizza>
+<div class=" container">
+    <div class="row">
+        <div class="col">
+
+
+            @foreach (Pizza elemento in Model)
+            {
+
+                <div class="card h-100">
+
+                    <img style="aspect-ratio:4/3" src="@elemento.Img" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">@elemento.Title</h5>
+                    
+
+                        <a class="btn btn-warning btn-sm" href="@Url.Action("Details", "Pizza", new { id = elemento.Id })"> Details </a>
+
+                        <a class="btn btn-warning btn-sm modifyBtn" href="@Url.Action("Update", "Pizza", new { id = elemento.Id })"> Modify </a>
+
+                        <form asp-controller="Pizza" asp-action="Delete" asp-route-id="@elemento.Id" method="post" class="buttonForm btn btn-warning btn-sm"><a type="submit"> Delete </a></form>
+                    </div>
+
+                </div>
+
+            }
+
+
+
+
+
+
+        </div>
+    </div>
+</div>

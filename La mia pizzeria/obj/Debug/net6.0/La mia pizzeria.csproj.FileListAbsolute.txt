@@ -1,0 +1,87 @@
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/appsettings.Development.json
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/appsettings.json
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/La mia pizzeria.staticwebassets.runtime.json
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/La mia pizzeria
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/La mia pizzeria.deps.json
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/La mia pizzeria.runtimeconfig.json
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/La mia pizzeria.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/La mia pizzeria.pdb
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Azure.Core.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Azure.Identity.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Humanizer.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.CodeDom.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Text.Json.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.csproj.AssemblyReference.cache
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.AssemblyInfoInputs.cache
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.AssemblyInfo.cs
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.csproj.CoreCompileInputs.cache
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.MvcApplicationPartsAssemblyInfo.cache
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.RazorAssemblyInfo.cache
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.RazorAssemblyInfo.cs
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/staticwebassets/msbuild.La mia pizzeria.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/staticwebassets/msbuild.build.La mia pizzeria.props
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.La mia pizzeria.props
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.La mia pizzeria.props
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/staticwebassets.build.json
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/staticwebassets.development.json
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/scopedcss/bundle/La mia pizzeria.styles.css
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/scopedcss/projectbundle/La mia pizzeria.bundle.scp.css
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.csproj.CopyComplete
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/refint/La mia pizzeria.dll
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.pdb
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/La mia pizzeria.genruntimeconfig.cache
+/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/obj/Debug/net6.0/ref/La mia pizzeria.dll
