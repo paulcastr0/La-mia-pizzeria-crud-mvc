@@ -24,8 +24,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/Views/Pizza/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGl6emEvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/Views/Pizza/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGl6emEvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/Views/Pizza/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGl6emEvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/paulcastro/Projects/La mia pizzeria/La mia pizzeria/Views/Shared/Error.cshtml]

@@ -5,19 +5,20 @@
 
 @model List<Pizza>
 <div class=" container">
+    <a class="btn btn-primary" href="@Url.Action("Create","Pizza")">Aggiungi nuova pizza</a>
     <div class="row">
-        <div class="col">
 
 
-            @foreach (Pizza elemento in Model)
-            {
+        @foreach (Pizza elemento in Model)
+        {
+            <div class="col">
 
                 <div class="card h-100">
 
                     <img style="aspect-ratio:4/3" src="@elemento.Img" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">@elemento.Title</h5>
-                    
+
 
                         <a class="btn btn-warning btn-sm" href="@Url.Action("Details", "Pizza", new { id = elemento.Id })"> Details </a>
 
@@ -28,13 +29,12 @@
 
                 </div>
 
-            }
-
+            </div>
+                }
 
 
 
 
 
         </div>
-    </div>
 </div>

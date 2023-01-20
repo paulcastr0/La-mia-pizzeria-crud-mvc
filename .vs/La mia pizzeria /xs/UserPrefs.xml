@@ -1,19 +1,24 @@
 ﻿<Properties StartupConfiguration="{F8B3197A-BE47-441C-9F9E-79B91A50E1E8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="La mia pizzeria/Models/Pizza.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.La_220mia_220pizzeria PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="La mia pizzeria/Controllers/PizzaController.cs">
     <Files>
-      <File FileName="La mia pizzeria/Models/Pizza.cs" Line="10" Column="21" />
-      <File FileName="La mia pizzeria/Controllers/PizzaController.cs" Line="28" Column="1" />
+      <File FileName="La mia pizzeria/Models/Pizza.cs" Line="17" Column="1" />
+      <File FileName="La mia pizzeria/Controllers/PizzaController.cs" Line="20" Column="1" />
       <File FileName="La mia pizzeria/DataBase/RistoranteContext.cs" />
-      <File FileName="La mia pizzeria/Views/Pizza/Index.cshtml" />
-      <File FileName="La mia pizzeria/Views/Shared/MyLayout.cshtml" />
+      <File FileName="La mia pizzeria/Views/Pizza/Index.cshtml" Line="8" Column="93" />
+      <File FileName="La mia pizzeria/Views/Shared/MyLayout.cshtml" Line="23" Column="1" />
       <File FileName="La mia pizzeria/Program.cs" />
+      <File FileName="La mia pizzeria/Views/Pizza/Create.cshtml" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="La mia pizzeria " expanded="True">
             <Node name="La mia pizzeria" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="PizzaController.cs" selected="True" />
+              </Node>
               <Node name="DataBase" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
@@ -26,11 +31,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.La_220mia_220pizzeria PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = "MyLayout";
+}
+
+@model Pizza
+<div class="container">
+    <form asp-controller="Pizza" asp-action="Update" method="post">
+        @Html.AntiForgeryToken()
+        <div class="mb-3 form-check">
+            <label>Inserisci nome della pizza: </label>
+            <input asp-for="Title" type="text" class="form-control" />
+        </div>
+        <div class="mb-3 form-check">
+            <label>Inserisci link dell'immagine': </label>
+            <input asp-for="Img" type="text" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-small btn-info">Salva</button>
+    </form>
+</div>

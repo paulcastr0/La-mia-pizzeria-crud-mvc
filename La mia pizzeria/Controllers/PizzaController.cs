@@ -22,6 +22,76 @@ namespace La_mia_pizzeria.Controllers
                 return View("Index", ListaDellePizze);
             }
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Pizza formData)
+        {
+            using (RistoranteContext db = new RistoranteContext())
+            {
+                if (!ModelState.IsValid)
+                {
+                    return View("Create", formData);
+                }
+                else
+                {
+                    db.Pizzas.Add(formData);
+                    db.SaveChanges();
+                }
+                return RedirectToAction("Index");
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Update(int id)
+        {
+            using (RistoranteContext db = new RistoranteContext())
+            {
+                //Cerca pizza con determinato parametro nel db
+                Pizza pizzaCercata = db.Pizzas.Where(p => p.Id == id).FirstOrDefault();
+                if(pizzaCercata == null)
+                {
+                    return NotFound("La pizza non è stata trovata");
+                }
+                return View("Update", pizzaCercata);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Update(Pizza formData)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Update", formData);
+            }
+            using (RistoranteContext db = new RistoranteContext())
+            {
+                Pizza pizzaCercata = db.Pizzas.Where(p => p.Id == formData.Id).FirstOrDefault();
+                {
+                    if(pizzaCercata != null)
+                    {
+                        pizzaCercata.Title = formData.Title;
+                        pizzaCercata.Img = formData.Img;
+
+                        db.SaveChanges();
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        return NotFound("La pizza che volevi modificare non è stato trovato");
+
+                    }
+                }
+            }
+        }
+
     }
+
+
 }
 
