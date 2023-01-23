@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using La_mia_pizzeria.DataBase;
 using La_mia_pizzeria.Models;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -20,6 +21,22 @@ namespace La_mia_pizzeria.Controllers
                 List<Pizza> ListaDellePizze = database.Pizzas.ToList<Pizza>();
 
                 return View("Index", ListaDellePizze);
+            }
+        }
+
+        public IActionResult Details(int id)
+        {
+            using (RistoranteContext db = new RistoranteContext())
+            {
+                Pizza? pizza = db.Pizzas.Where(p => p.Id == id).FirstOrDefault();
+                if ( pizza == null)
+                {
+                    return NotFound("La pizza cercata non esiste");
+                }
+                else
+                {
+                    return View(pizza);
+                }
             }
         }
 
