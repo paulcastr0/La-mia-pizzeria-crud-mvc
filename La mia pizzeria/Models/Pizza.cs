@@ -15,6 +15,7 @@ namespace La_mia_pizzeria.Models
 
 		public Pizza() { }
 
+		public List<Tag>? Tags { get; set; }
 		
 
     }
