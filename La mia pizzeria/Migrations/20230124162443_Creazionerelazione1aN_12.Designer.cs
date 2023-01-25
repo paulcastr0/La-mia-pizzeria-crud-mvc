@@ -4,6 +4,7 @@ using La_mia_pizzeria.DataBase;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lamiapizzeria.Migrations
 {
     [DbContext(typeof(RistoranteContext))]
-    partial class RistoranteContextModelSnapshot : ModelSnapshot
+    [Migration("20230124162443_Creazionerelazione1aN_12")]
+    partial class Creazionerelazione1aN12
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

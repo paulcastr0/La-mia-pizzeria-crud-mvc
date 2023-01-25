@@ -43,21 +43,32 @@ namespace La_mia_pizzeria.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            using (RistoranteContext db = new RistoranteContext())
+            {
+                List<Category> categoriesFromDB = db.Categories.ToList<Category>();
+
+                PizzaCategoryView modelforView = new PizzaCategoryView();
+                modelforView.Pizza = new Pizza();
+                modelforView.Categories = categoriesFromDB;
+                return View("Create", modelforView);
+            }
+            
         }
 
         [HttpPost]
-        public IActionResult Create(Pizza formData)
+        public IActionResult Create(PizzaCategoryView formData)
         {
             using (RistoranteContext db = new RistoranteContext())
             {
                 if (!ModelState.IsValid)
                 {
+                    List < Category > categories = db.Categories.ToList<Category>();
+                    formData.Categories = categories;
                     return View("Create", formData);
                 }
                 else
                 {
-                    db.Pizzas.Add(formData);
+                    db.Pizzas.Add(formData.Pizza);
                     db.SaveChanges();
                 }
                 return RedirectToAction("Index");
@@ -75,34 +86,68 @@ namespace La_mia_pizzeria.Controllers
                 {
                     return NotFound("La pizza non è stata trovata");
                 }
-                return View("Update", pizzaCercata);
+                PizzaCategoryView modelforView = new PizzaCategoryView();
+                List<Category> categories = db.Categories.ToList<Category>();
+                modelforView.Pizza = pizzaCercata;
+                modelforView.Categories = categories;
+
+                return View("Update", modelforView);
             }
         }
 
         [HttpPost]
-        public IActionResult Update(Pizza formData)
+        public IActionResult Update(int id, PizzaCategoryView formData)
         {
             if (!ModelState.IsValid)
             {
+                using (RistoranteContext db = new RistoranteContext())
+                {
+                    List<Category> categories = db.Categories.ToList<Category>();
+                    formData.Categories = categories;
+                }
                 return View("Update", formData);
             }
             using (RistoranteContext db = new RistoranteContext())
             {
-                Pizza pizzaCercata = db.Pizzas.Where(p => p.Id == formData.Id).FirstOrDefault();
+                Pizza pizzaCercata = db.Pizzas.Where(p => p.Id == id).FirstOrDefault();
                 {
                     if(pizzaCercata != null)
                     {
-                        pizzaCercata.Title = formData.Title;
-                        pizzaCercata.Img = formData.Img;
+                        pizzaCercata.Title = formData.Pizza.Title;
+                        pizzaCercata.Img = formData.Pizza.Img;
+                        pizzaCercata.CategoryId = formData.Pizza.CategoryId;
 
                         db.SaveChanges();
                         return RedirectToAction("Index");
                     }
                     else
                     {
-                        return NotFound("La pizza che volevi modificare non è stato trovato");
+                        return NotFound("La pizza che volevi modificare non è stata trovata");
 
                     }
+                }
+            }
+
+           
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            using(RistoranteContext db = new RistoranteContext())
+            {
+                Pizza pizzaToDelete = db.Pizzas.Where(p => p.Id == id).FirstOrDefault();
+                if(pizzaToDelete != null)
+                {
+                    db.Pizzas.Remove(pizzaToDelete);
+                    db.SaveChanges();
+
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return NotFound("La pizza da eliminare non è stata trovata");
                 }
             }
         }

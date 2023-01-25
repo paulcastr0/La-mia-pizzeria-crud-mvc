@@ -3,19 +3,28 @@
     Layout = "MyLayout";
 }
 
-@model Pizza
+@model PizzaCategoryView
 <div class="container">
-    <form asp-controller="Pizza" asp-action="Update" method="post">
+    <form asp-controller="Pizza" asp-action="Update" asp-route="@Model.Pizza.Id" method="post">
         @Html.AntiForgeryToken()
         <div class="mb-3 form-check">
             <label>Inserisci nome della pizza: </label>
-            <input asp-for="Title" type="text" class="form-control" />
+            <input asp-for="Pizza.Title" type="text" class="form-control" />
         </div>
         <div class="mb-3 form-check">
             <label>Inserisci link dell'immagine': </label>
-            <input asp-for="Img" type="text" class="form-control" />
+            <input asp-for="Pizza.Img" type="text" class="form-control" />
         </div>
+        <div class="mb-3 ">
+            <label>Categoria: </label>
+            <select asp-for="Pizza.CategoryId" rows="10" class="d-block w-100">
+                <option value=""></option>
+                @foreach (Category categoryElemento in Model.Categories)
+                {
+                    <option value="@categoryElemento.Id">@categoryElemento.Title</option>
+                }
+            </select>
 
-        <button type="submit" class="btn btn-small btn-info">Salva</button>
+            <button type="submit" class="btn btn-small btn-info">Salva</button>
     </form>
 </div>
